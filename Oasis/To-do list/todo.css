@@ -1,0 +1,117 @@
+/* Global styles */
+
+:root {
+    --primary-color: #1627e5;
+    --secondary-color: #75dec9;
+    --text-color: #black;
+  }
+  
+  body {
+    #font-family: Arial, sans-serif;
+    background-color: lightgreen;
+  }
+  
+  /* Container styles */
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  /* Title styles */
+  
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+  }
+  
+  /* Form styles */
+  
+  .add-task input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+  
+  .add-task button {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .add-task button:hover {
+    background-color: #0f226e;
+  }
+  
+  /* Task list styles */
+  
+  .pending-tasks h2, .completed-tasks h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .delete-button, .edit-button {
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.edit-button:hover, .delete-button:hover {
+  transform: scale(1.1);
+  color: red;
+}
+
+    
+  
