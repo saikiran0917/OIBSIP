@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(158, 196, 196);
+  background-color: lightblue;
   body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background: linear-gradient(to bottom right, #4c90ff, #ff6f8c);
@@ -9,13 +9,14 @@ body {
 }
 
 .calculator {
-  width: 350px;
+  width: 400px;
   margin: 100px auto;
   border: 2px solid #0a0a0a;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 50px;
   box-shadow: 2px 2px 5px rgba(2, 0, 0, 0.3);
   animation: slide-up 0.5s ease-in-out;
+  background-color:whitesmoke
 }
 
 @keyframes slide-up {
@@ -85,7 +86,7 @@ button {
 }
 
 button:hover {
-  background-color: lightyellow;
+  background-color: lightcyan;
   animation: bounce 1s ;
 }
 
@@ -109,9 +110,7 @@ button:hover {
 .backspace {
   background-color: rgb(156, 62, 62);
   color: #black;
-  
 }
-
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -129,6 +128,3 @@ button:hover {
   animation: spin 0.5s ease-in-out infinite;
 }
 
-@keyframes spin {
-  0% {
-    transform
