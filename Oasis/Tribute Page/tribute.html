@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tribute Page</title>
+    <style>
+      html {
+  scroll-behavior: smooth;
+}
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #E2D1F9;
+      }
+      
+      #header {
+        background-color: #3EB489 ;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+
+      }
+      
+      #header h1 {
+        margin: 0;
+        font-size: 50px;
+      }
+      /* Add animation to the header */
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+#header {
+  animation: slideIn 1s ease-out;
+}
+#header:hover {
+  color: #3EB489;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+      
+      #image {
+        display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+      }
+      
+      #image img {
+        width: 50%;
+        border-radius: 5%;
+        box-shadow: 0 0 10px black;
+      
+      }
+      
+      
+      #bio {
+        margin: 30px auto;
+        max-width: 1300px;
+        padding: 50px;
+        background-color: white;
+        box-shadow: 0 0 10px #999;
+      }
+      
+      #bio h2 {
+        margin-top: 0;
+        font-size: 36px;
+      }
+      
+      #bio p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      
+      #quote {
+        margin: 30px auto;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+        box-shadow: 0 0 10px #999;
+        text-align: center;
+      }
+      
+      #quote p {
+        font-size: 24px;
+        font-style: italic;
+      }
+      
+      
+      #button {
+        text-align: center;
+      }
+      
+      #button button {
+        background-color: green;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 24px;
+        cursor: pointer;
+      }
+      
+      #button button:hover {
+        background-color: #3EB489 ;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Tribute to Ratan Tata</h1>
+    </header>
+    <div id="image">
+      <img src="RatanTata.avif">
+    </div>
+    <div id="bio">
+      <h2>Early Life</h2>
+      <p>Ratan Tata was born in Bombay, now Mumbai, during the British Raj, on 28 December 1937. He is the son of Naval Tata, who was born in Surat and later adopted into the Tata family, and Sooni Tata, the niece of Tata group founder Jamsetji Tata. Tata's biological grandfather, Hormusji Tata, was a member of the Tata family by blood. In 1948, when Tata was 10, his parents separated, and he was subsequently raised and adopted by Navajbai Tata, his grandmother and widow of Ratanji Tata. He has a younger brother Jimmy Tata and a half-brother, Noel Tata, from Naval Tata's second marriage with Simone Tata, with whom he was raised. His first language is Gujarati.</p>
+
+      <p>He studied at the Campion School, Mumbai till the 8th class. After which, he studied at the Cathedral and John Connon School in Mumbai, the Bishop Cotton School in Shimla, and the Riverdale Country School in New York City, which he graduated from in 1955. After graduating from high school, Tata enrolled in Cornell University, from which he graduated with a bachelor's degree in architecture in 1959. In 2008, Tata gifted Cornell $50 Million, becoming the largest international donor in the university’s history.</p>
+      
+      <h2>Career</h2>
+      <p>Ratan Tata was given a managerial position in the Tata group in the 1970s and led the company for 21 years. He implemented policies to consolidate power, prioritised innovation, and delegated many responsibilities to younger talent. He had Tata Tea acquire Tetley, Tata Motors acquire Jaguar Land Rover, and Tata Steel acquire Corus. He also developed the Tata Nano car and launched India's companionship startup for senior citizens, Goodfellows. Ratan Tata was given a managerial position in the Tata group in the 1970s and led the company for 21 years.</p>
+
+        <p>He implemented policies to consolidate power, prioritised innovation, and delegated many responsibilities to younger talent. He had Tata Tea acquire Tetley, Tata Motors acquire Jaguar Land Rover, and Tata Steel acquire Corus. He also developed the Tata Nano car and launched India's companionship startup for senior citizens, Goodfellows.</p>
+      
+     
+
+      <h2>Personal Life</h2>
+      <p>Tata is known to be a private person and keeps his personal life away from the public eye. Tata has never married and has no children. In 2011, Ratan Tata stated, "I came close to getting married four times and each time I backed off in fear or for one reason or another."</p>
+    
+    
+    
+        <h2>Philanthropy</h2>
+        <p>Ratan Tata has always been committed to giving back to society. He has donated millions of dollars to various charitable causes through the Tata Trusts, which are among India's oldest, non-sectarian philanthropic organizations. The trusts focus on education, healthcare, livelihood generation, and disaster relief, among other areas. </p>
+        <p>One of the notable contributions of the Tata Trusts under Ratan Tata's leadership was the establishment of the Tata Institute of Fundamental Research in Mumbai in 1945, which has made significant contributions to the fields of mathematics, physics, and chemistry.</p>
+    
+
+    
+
+    
+        <h2>Honours and Awards</h2>
+        <p>Ratan Tata has received numerous honours and awards for his contributions to business and society. In 2000, he was awarded the Padma Bhushan, India's third-highest civilian award, and in 2008, he was awarded the Padma Vibhushan, the country's second-highest civilian award.</p>
+        <p>He has also been honoured by several international organizations, including the Rockefeller Foundation, which awarded him the Lifetime Achievement Award in 2016 for his philanthropic efforts.</p>
+    </div>
+
+    <div id="quote">
+        <p>"I don't believe in taking right decisions. I take decisions and then make them right." - Ratan Tata</p>
+    </div>
+
+    <div id="button">
+        <button onclick="showQuote()">Show another quote</button>
+    </div>
+
+    <script>
+        const quotes = [            "If you want to walk fast, walk alone. But if you want to walk far, walk together.",            "I have always been very confident and very upbeat about the future potential of India. I think it is a great country with great potential.",            "One of the weaknesses of Indian industry is that it has never been global in scale.",            "In a free enterprise, the community is not just another stakeholder in business but is in fact the very purpose of its existence.",            "I don't believe in taking right decisions. I take decisions and then make them right."        ];
+
+        function showQuote() {
+            const index = Math.floor(Math.random() * quotes.length);
+            const quote = quotes[index];
+            document.querySelector("#quote p").textContent = `"${quote}" - Ratan Tata`;
+        }
+        
+    </script>
+</body>
